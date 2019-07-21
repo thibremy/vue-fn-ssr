@@ -9,6 +9,7 @@
     "test:unit": "vue-cli-service test:unit",
     "docs": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "docs:publish": "push-dir --dir=docs/.vuepress/dist --branch=gh-pages --cleanup",
     "release": "semantic-release",
     "prepare": "npm run build"
   },
@@ -39,6 +40,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.5",
+    "push-dir": "^0.4.1",
     "semantic-release": "^15.13.18",
     "ts-jest": "^23.0.0",
     "typescript": "^3.4.3",
