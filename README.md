@@ -30,8 +30,8 @@ export default {
   setup(props) {
     const ssr = useSSR()
     
-    console.log('IS BROWSER: ', isBrowser ? '👍' : '👎')
-    console.log('IS SERVER: ', isServer ? '👍' : '👎')
+    console.log('IS BROWSER: ', ssr.isBrowser ? '👍' : '👎')
+    console.log('IS SERVER: ', ssr.isServer ? '👍' : '👎')
     
     return {
       isBrowser: ssr.isBrowser,
