@@ -41,7 +41,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.5",
     "push-dir": "^0.4.1",
-    "semantic-release": "^15.13.18",
+    "semantic-release": "^17.2.3",
     "ts-jest": "^23.0.0",
     "typescript": "^3.4.3",
     "vue-template-compiler": "^2.6.10",
